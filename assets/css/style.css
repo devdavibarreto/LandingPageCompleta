@@ -63,7 +63,7 @@ a{
     color: var(--white-color);
 }
 
-/*Containers individual*/
+
 
 .main-content {
     max-width: 1200px;
@@ -75,6 +75,7 @@ a{
     min-height: 100vh; /* Para que o backgroud oculpe 100 % da tela */
 }
 
+/*Containers individual*/
 .menu{
     background-color: var(--white-color);
     position: fixed;
