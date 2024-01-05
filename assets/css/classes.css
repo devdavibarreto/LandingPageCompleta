@@ -1,0 +1,24 @@
+/*ORGANIZAÇÃO DA PAGINA*/
+.main-bg{
+    background-image: url('../img/main-bg.svg'); /*Forma de adicionar um backgroud puxando o svg*/
+    background-size: cover; /*cubra completamente o elemento ao qual está atribuída, mantendo sua proporção original.*/
+    background-position: center center; /* Deixando sempre centralizada o backgroud */
+    color: var(--white-color);
+}
+
+.white-bg{
+    background-color: var(--white-color);
+    
+}
+
+
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto; /* Margins automaticas para esquerda e direita o navegador vai calcular automaticamente */
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh; /* Para que o backgroud oculpe 100 % da tela */
+}

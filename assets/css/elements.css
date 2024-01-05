@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+html{
+    font-size: 62.5%;
+    /* O html usa de forma padrão 16px ou seja (62.5% * 16px = 10px) Então padronizei a fonte em 10px para quando eu usar a unidade de medida rem 1 rem equivale a 10 pixel */
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+/* DEFININDO PADRÕES*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size:6rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size:5.5rem;
+}
+h3{
+    font-size:5rem;
+}
+h4{
+    font-size:4.5rem;
+}
+h5{
+    font-size:4rem;
+}
+h6{
+    font-size:3.5rem;
+}
+
+a{
+    text-decoration: none;
+}
