@@ -2,3 +2,28 @@
 /*Containers individual*/
 
 
+.intro-content{
+    position: relative;
+    top: -8rem;
+    display:grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: --gap;
+    align-items: center; /*PODE SER USADO FORA DO FLEXBOX :)*/
+    height: 100vh;
+
+}
+
+.intro-text-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+
+.intro-text-content h2{
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
