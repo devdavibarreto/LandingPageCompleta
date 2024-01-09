@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     border-bottom: 0.1rem  solid var(--light-gray-color);
+    z-index: 1;
 }
 
 .menu-content{
