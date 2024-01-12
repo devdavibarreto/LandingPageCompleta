@@ -24,6 +24,14 @@
 .intro-img img{
     max-width: 100%;
     height: auto;
+}
 
+.top3-content{
+    max-width: 64rem;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }
 
