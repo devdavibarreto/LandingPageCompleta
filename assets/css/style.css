@@ -46,5 +46,22 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: var(--gap);
+    counter-reset: grid-counter /*Criando contador*/
 }
 
+.grid h3{
+    font-size: 3rem;
+    position: relative; /*Para que a classe de baixo fique dentro .grid h3::before */
+}
+
+.grid h3::before{
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top:0;
+    left:0;
+
+
+}
