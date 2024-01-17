@@ -42,6 +42,14 @@
     height: 100vh;
 }
 
+.grid-main-heading{
+    margin-bottom: 1rem;
+}
+
+.grid-description{
+    padding-bottom : 5rem;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -52,6 +60,8 @@
 .grid h3{
     font-size: 3rem;
     position: relative; /*Para que a classe de baixo fique dentro .grid h3::before */
+    padding-left: 5rem;
+    padding-bottom: 2rem;
 }
 
 .grid h3::before{
@@ -60,8 +70,9 @@
     position: absolute;
     font-size: 8rem;
     font-style: italic;
-    top:0;
-    left:0;
+    top: -4rem;
+    left: -2rem;
+    transform: rotate(5deg); /* Para rotacionar 5 graus*/
 
 
 }
