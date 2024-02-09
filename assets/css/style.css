@@ -9,7 +9,7 @@
     grid-template-columns: 1fr 1.5fr;
     gap: --gap;
     align-items: center; /*PODE SER USADO FORA DO FLEXBOX :)*/
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -29,7 +29,9 @@
 .top3-content{
     max-width: 64rem;
     height: 100vh;
-    flex-flow: column wrap;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -39,7 +41,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .grid-main-heading{
